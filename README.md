@@ -1,73 +1,191 @@
-# React + TypeScript + Vite
+# Haider Al-Sudani — Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional portfolio website showcasing software engineering projects, full-stack development experience, mobile applications, backend systems, and scalable software architecture.
 
-Currently, two official plugins are available:
+Live portfolio built with React, TypeScript, Vite, and modern responsive UI principles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Full-stack and mobile application developer with a Bachelor’s degree in Software Engineering and a diploma in Computer Systems Technology (CST) from BCIT.
 
-## Expanding the ESLint configuration
+Brings 10+ years of experience across technical support, software development, backend systems, mobile applications, and scalable software architecture.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Experienced in:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Full-Stack Development
+- Mobile Application Development
+- Backend Systems
+- API Design & Integration
+- Microservices Architecture
+- Software Engineering
+- Database Design
+- Cloud Deployment
+- AI-Assisted Systems
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Technologies
+
+### Frontend & Mobile
+
+- React
+- React Native
+- Expo
+- TypeScript
+- JavaScript
+- Next.js
+- Tailwind CSS
+- Bootstrap
+
+### Backend & APIs
+
+- Node.js
+- Express.js
+- ASP.NET Core
+- REST APIs
+- JWT
+- Socket.IO
+- Prisma
+
+### Databases
+
+- PostgreSQL
+- MongoDB
+- MySQL
+- SQLite
+- Redis
+- Firebase
+
+### Engineering & DevOps
+
+- Docker
+- Railway
+- AWS
+- Azure
+- Git
+- GitHub
+- GitLab
+- Postman
+- Selenium
+
+### Architecture
+
+- OOP
+- Microservices
+- API Gateway
+- System Design
+- SDLC
+- Agile
+- CI/CD
+
+---
+
+## Featured Projects
+
+### EquiTip Refactor
+Modernization of Draftbit + Xano architecture into React Native and scalable microservices.
+
+Tech:
+React Native • TypeScript • Node.js • PostgreSQL • Prisma • Docker • Railway
+
+---
+
+### Fall Protection Plan
+AI-assisted mobile and backend platform for workplace safety planning.
+
+Tech:
+React Native • Node.js • MongoDB • Roboflow • Gemini
+
+---
+
+### Accessibility Intelligence System
+AI-driven accessibility research platform using mobile data, analytics, and scalable architecture.
+
+Tech:
+React Native • Next.js • Node.js • Railway
+
+---
+
+### PathPal Accessibility Platform
+Community-driven accessibility mapping platform for discovering and sharing accessible locations.
+
+Tech:
+Node.js • Express • MongoDB • Mapbox • Bootstrap
+
+---
+
+## Installation
+
+Clone repository
+
+```bash
+git clone https://github.com/Haider-ca/developer-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd developer-portfolio
 ```
+
+Install:
+
+```bash
+npm install
+```
+
+Run:
+
+```bash
+npm run dev
+```
+
+Build:
+
+```bash
+npm run build
+```
+
+Preview:
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```plaintext
+developer-portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+---
+
+## Contact
+
+Email  
+haider.alsudani.dev@gmail.com
+
+LinkedIn  
+linkedin.com/in/haider-alsudani
+
+GitHub  
+github.com/Haider-ca
+
+---
+
+## License
+
+This project is intended for portfolio and showcase purposes.

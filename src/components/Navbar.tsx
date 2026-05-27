@@ -28,10 +28,11 @@ export default function Navbar() {
 
         <a
           href={PROFILE.resume}
-          download
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden items-center gap-2 rounded-lg border border-white/30 px-5 py-3 text-sm font-semibold text-white transition hover:border-blue-400 hover:text-blue-400 md:flex"
         >
-          Resume <Download size={16} />
+          View Resume <Download size={16} />
         </a>
 
         <button
@@ -59,10 +60,11 @@ export default function Navbar() {
 
             <a
               href={PROFILE.resume}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex w-fit items-center gap-2 rounded-lg border border-white/30 px-5 py-3 text-sm font-semibold text-white"
             >
-              Resume <Download size={16} />
+              View Resume <Download size={16} />
             </a>
           </div>
         </div>

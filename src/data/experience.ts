@@ -1,5 +1,13 @@
 export const experiences = [
   {
+    title: "Software Engineer | Technical Lead",
+    company: "Soul Surfer Software",
+    period: "2026 - Present",
+    description:
+      "Lead software engineering and technical delivery for full-stack products, coordinating architecture, implementation, and production-focused development.",
+  },
+
+  {
     title: "Technical Lead & Full-Stack Developer",
     company: "BCIT Industry & Academic Software Projects",
     period: "2024 - 2026",
